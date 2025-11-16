@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cartão, perfil, exemplo,HTML">
-    <meta name="keywords" content="Cartão, perfil,HTML">
-    <meta name="robats" content="index, follow">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Tamires Delmondes">
-    <title>Cartão de perfil</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="assets/icone.png" class="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Página central de links da Tamires, desenvolvedor de software.">
+
+<title>Tamires Delmondes</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <artico class="card">
-        <div class="card_image-container">
-            <img src="assets/foto.jpg" alt="Foto de perfil de Tamires Delmondes" class="card_image">
-        </div>
-        <div class="card_info">
-            <h2 class="card_name">Tamires Delmondes</h2>
-            <p class="card_title">Desenvolvimento Frond-End</p>
-            <div class="card_social">
-                <a href="#" aria-label="Linkedin de Tamires Delmondes">Linkedin</a>
-                <a href="#" aria-label="Github de Tamires Delmondes">Github</a>
-                <a href="#" aria-label="X de Tamires Delmondes">X</a>
-                </a>
+    <main class="container">
+        
+        <header class="perfil">
+            <img class="perfil__foto" src="assets/foto.jpg" alt="Foto de rosto da Tamires.">
+            <div class="perfil__texto">
+                
+                <h1>Tamires Delmondes</h1>
+                <p>Desenvolvedora de Software</p>
             </div>
-        </div>
-    </artico>
+        </header>
+        
+        <section class="links">
+            <h2 class="sr-only">Links Principais</h2> <ul>
+                <li><a href="https://github.com/tamiresrodrigue" target="_self">Portfólio</a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="_self">LinkedIn</a></li>
+                <li><a href="https://github.com/tamiresrodrigue" target="_self">GitHub</a></li>
+                <li><a href="contato.html" target="_self">Entre em Contato</a></li>
+            </ul>
+        </section>
+        
+        <footer class="rodape">
+            <p>&copy; 2025 | Desenvolvido com ❤️ por Tamires Delmondes</p>
+        </footer>
+        
+    </main>
+    
 </body>
 </html>
